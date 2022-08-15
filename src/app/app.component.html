@@ -1,3 +1,15 @@
+<!-- Top Navbar Example -->
+<div class="topnav" [ngClass]="{'responsive':topNavResponsive}">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+  </div>
+
+<!-- Carousel part start -->
 <br><br>
 <h1>Awesome Carousel</h1>
 <app-carousel [images]="images"></app-carousel>
@@ -17,3 +29,4 @@
 <br><br>
 <h1>Hide button controls</h1>
 <app-carousel [images]="images" [controls]="false"></app-carousel>
+<!-- Carousel part end -->

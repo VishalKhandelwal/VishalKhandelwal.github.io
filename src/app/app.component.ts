@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'myApp';
 
+  // -------------carousel start------
   images = [
     {
       imageSrc:
@@ -30,4 +31,16 @@ export class AppComponent {
       imageAlt: 'person2',
     },
   ]
+
+  //------carousel-end----------
+
+  topNavResponsive: boolean;
+  myFunction(){
+      if(this.topNavResponsive){
+        this.topNavResponsive = false;
+      }
+      else{
+        this.topNavResponsive = true;
+      }
+  }
 }
