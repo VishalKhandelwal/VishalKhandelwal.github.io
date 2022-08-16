@@ -34,13 +34,5 @@ export class AppComponent {
 
   //------carousel-end----------
 
-  topNavResponsive: boolean;
-  myFunction(){
-      if(this.topNavResponsive){
-        this.topNavResponsive = false;
-      }
-      else{
-        this.topNavResponsive = true;
-      }
-  }
+  
 }
