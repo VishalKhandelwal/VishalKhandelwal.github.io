@@ -15,9 +15,8 @@
     text-decoration: none;
   }
    
-  .sidebar a.active {
-    background-color: #555;
-    color: white;
+  .sidebar a.active {    
+    font-weight: bold;
   }
   
   .sidebar a:hover:not(.active) {
